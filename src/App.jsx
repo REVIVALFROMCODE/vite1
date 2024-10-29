@@ -1,17 +1,13 @@
-import react from 'react'
-
-import './App.css'
+import react from "react";
+import Nav from "./Nav";
+import "./App.css";
 
 function App() {
-  
-
- return (
-  <>
-  <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </>
- );
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
-export default App
+export default App;
